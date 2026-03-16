@@ -1,0 +1,19 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Dados brutos (podem ser grandes)
+data/raw/
+data/external/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db
