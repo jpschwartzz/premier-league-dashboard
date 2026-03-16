@@ -1,7 +1,7 @@
 import pandas as pd
 
 def carregar_dados():
-    df_matches = pd.read_csv('data/processed/df_dados_matches.csv', index_col=0)
+    df_matches = pd.read_csv('data/processed/df_dados_matches.csv')
     df_players = pd.read_csv('data/processed/df_dados_players.csv', index_col=0)
     df_teams = pd.read_csv('data/processed/df_dados_teams.csv', index_col=0)
     return df_matches, df_players, df_teams
